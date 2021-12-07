@@ -1,0 +1,11 @@
+name: aoc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pandas
+  - pip=21
+  - pip:
+    - flake8
+    - black
+    - mypy
