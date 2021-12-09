@@ -8,6 +8,7 @@ class BaseChallenge(object):
     def __init__(self, day):
         self.day = day
         self.numeric_day = self._get_numeric_day()
+        self.result = list()
 
     def _get_numeric_day(self):
         return re.findall(r"[A-Za-z]+|\d+", self.day)[-1]

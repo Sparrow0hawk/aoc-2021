@@ -12,6 +12,8 @@ def main(day: str):
 
     challenge_inst.get_result()
 
+    challenge_inst.get_part2()
+
     return challenge_inst.return_result()
 
 
