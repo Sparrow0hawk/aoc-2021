@@ -9,3 +9,4 @@ dependencies:
     - flake8
     - black
     - mypy
+    - advent-of-code-data
